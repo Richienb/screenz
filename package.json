@@ -1,6 +1,6 @@
 {
 	"name": "screenz",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get the current screen size.",
 	"repository": "https://github.com/Richienb/screenz.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
