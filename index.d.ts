@@ -1,14 +1,9 @@
-/**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
- * @example
- * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
- * ```
-*/
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const screenSize: {
+	/** The screen width. */
+	width: number
 
-export = theModule;
+	/** The screen height. */
+	height: number
+}
+
+export = screenSize;

@@ -1,41 +1,37 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Screenz [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/screenz/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/screenz)
 
-My awesome module.
+Get the current screen size.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/screenz.png)](https://npmjs.com/package/screenz)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install screenz
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const { width, height } = require("screenz");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+console.log(width);
+//=> 1920
+
+console.log(height);
+//=> 1080
 ```
 
 ## API
 
-### theModule(input, options?)
+### screenz.width
 
-#### input
+Type: `number`
 
-Type: `string`
+The screen width.
 
-Lorem ipsum.
+### screenz.height
 
-#### options
+Type: `number`
 
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The screen height.
